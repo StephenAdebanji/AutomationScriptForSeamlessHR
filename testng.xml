@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeamlessHRTest">
+  <test name="AdminActions">
+	 <classes>
+		 <class name="seamlessHR.AddAdmin"></class>
+		 <class name="seamlessHR.EditAdmin"></class>
+		 <class name="seamlessHR.DeleteAdmin"></class>	
+	 </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="EmployeeActions">
+	 <classes>
+		 <class name="seamlessHR.AddEmployee"></class>
+		 <class name="seamlessHR.EditEmployee"></class>
+		 <class name="seamlessHR.DeleteEmployee"></class>	
+	 </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

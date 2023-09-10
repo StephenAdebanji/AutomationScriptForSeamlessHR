@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeamlessHRTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AdminActions(failed)">
+    <classes>
+      <class name="seamlessHR.AddAdmin">
+        <methods>
+          <include name="SeamlessHRTestQuestion1"/>
+        </methods>
+      </class> <!-- seamlessHR.AddAdmin -->
+    </classes>
+  </test> <!-- AdminActions(failed) -->
+  <test thread-count="5" name="EmployeeActions(failed)">
+    <classes>
+      <class name="seamlessHR.DeleteEmployee">
+        <methods>
+          <include name="DeleteEmployeeTest"/>
+        </methods>
+      </class> <!-- seamlessHR.DeleteEmployee -->
+    </classes>
+  </test> <!-- EmployeeActions(failed) -->
+</suite> <!-- Failed suite [SeamlessHRTest] -->
